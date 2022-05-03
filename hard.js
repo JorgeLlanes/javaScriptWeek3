@@ -44,6 +44,24 @@ var pii = {
 
 pii.public();
 
+var pii = {
+    name: 'JJ',
+    ssn: '123-45-6789',
+
+    public: function () {
+        console.log(this.name)
+        private = () => {
+            console.log(this.ssn)
+        }
+        return private()
+    }
+
+}
+
+pii.public();
+
+
+
 
 
 

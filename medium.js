@@ -15,7 +15,7 @@ function cutPizzaSlices(y) {
     }
 
 };
-console.log(sharePizza(2));
+console.log(sharePizza(3));
 
 
 

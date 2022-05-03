@@ -83,6 +83,9 @@ class Programmer extends Person {
 
     learnLanguages(lang) {
         this.languages.push(lang)
+        console.log(`${this.name} has learned a new language, ${lang}`)
+
+
     };
 
     listLanguages() {
@@ -101,6 +104,9 @@ const programmer1 = new Programmer("Jesse james", "Bandit", 31, "Python");
 programmer1.listLanguages();
 programmer1.offerNewTask();
 programmer1.learnLanguages('jave');
+programmer1.learnLanguages('python');
+
+
 
 const programmer2 = new Programmer("Kobe", "Baller", 24, "Mamba")
 programmer2.listLanguages();
